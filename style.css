@@ -1,0 +1,31 @@
+/* Let's make the H1s big, bold, and navy blue
+   Make the Alfredo link orange
+   Make the Cheeseball link brown
+   Make the Jalapeno link dark green */
+
+* h1 {
+    color: navy;
+    font-size: 80px;
+    font-weight: 700px;
+}
+
+.link {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    font-style: inherit;
+}
+
+.alfredo {
+    color: orange;
+    text-decoration-color: peru; 
+}
+
+.cheeseball {
+    color: brown;
+    text-decoration-color: burlywood;
+}
+
+.jalapenos {
+    color: darkgreen;
+    text-decoration-color: darkolivegreen;
+}
