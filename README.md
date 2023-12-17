@@ -1,4 +1,4 @@
 # odin-recipes
- Build a basic recipe website
+Add a style.css file and make the recipe page look pretty.
 
- The website will consist of a main index page which will have links to a few recipes. I will strengthen my basic HTML coding skills, as well as writing commit messages and working in GitHub.
+Don't change the recipes, just change the style.
