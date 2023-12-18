@@ -1,17 +1,35 @@
+<!-- This is the css-added branch. Going to add a style.css file and make eveything look prettier -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Odin Recipes</title>
 </head>
 <body>
     <h1>Odin Recipes</h1>
-    <p>The project for this was to create a recipe website. It doesn't look fancy yet, considering I haven't yet learned CSS. Hopefully, you try one of these recipes out for yourself!</p>
-	<p><a href="./recipes/pennealfredo.html">Penne Alfredo</a></p>
-    <p><a href="./recipes/pccheeseball.html">Pine Cone Cheeseball</a></p>
-    <p><a href="./recipes/jalapenopopcups.html">Jalapeno Popper Cups</a></p>
+    <div>
+        <p>The project for this was to create a recipe website. It doesn't look fancy yet, considering I haven't yet learned CSS. Hopefully, you try one of these recipes out for yourself!</p>
+	    <p><a href="./recipes/pennealfredo.html" class="link alfredo">Penne Alfredo</a></p>
+        <p><a href="./recipes/pccheeseball.html" class="link cheeseball">Pine Cone Cheeseball</a></p>
+        <p><a href="./recipes/jalapenopopcups.html" class="link jalapenos">Jalapeno Popper Cups</a></p>
+    </div>
 
+<!-- Adding in the three pictures of the completed food to the main page -->
+<div class="row">
+    <div class="column">
+        <img src="./img/pennealf.jpg" alt="Penne Alfredo picture" style="width: 100%;">
+    </div>
+
+    <div class="column">
+        <img src="./img/pine-cone-cheese-ball.jpg" alt="Pine Conce Cheeseball picture" style="width: 100%;">
+    </div>
+
+    <div class="column">
+        <img src="./img/jalapeno-popper-cups.jpg" alt="Jalapeno Popper Cups picture" style="width: 100%;">
+    </div>
+</div>
 
 
 </body>
